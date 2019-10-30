@@ -1,0 +1,20 @@
+{
+  "name": "htmlportfolio",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morpheus86/htmlportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morpheus86/htmlportfolio/issues"
+  },
+  "homepage": "https://github.com/morpheus86/htmlportfolio#readme"
+}
