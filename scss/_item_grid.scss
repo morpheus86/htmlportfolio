@@ -6,14 +6,14 @@
 
 .item {
   position: relative;
-  background: $main-color;
+  background: #fff;
   overflow: hidden;
 
   &::after {
     content: "";
     position: absolute;
     display: block;
-    background: inherit;
+    background: $main-color;
     opacity: 0.9;
     top: 0;
     left: 0;
@@ -22,16 +22,23 @@
     transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
     transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1);
   }
+  // Bring in main color overlay
   &:hover:after {
     transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
   }
+
+  // Scale img on hover
+
   &:hover &-image {
     transform: scale(1.2);
   }
-  //bring text on hover
+
+  //Bring text on hover
   &:hover &-text {
+    opacity: 1;
     transform: translateY(0);
   }
+
   &-image {
     height: auto;
     transform: translateZ(0);
@@ -68,8 +75,8 @@
     transition-delay: 300ms;
   }
   &-text-wrap {
-    width: 100%;
     position: absolute;
+    width: 100%;
     top: 50%;
     transform: translateY(-50%);
   }

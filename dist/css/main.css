@@ -97,13 +97,13 @@ input[class^="btn-"]:hover {
 
 .item {
   position: relative;
-  background: #ffbc00;
+  background: #fff;
   overflow: hidden; }
   .item::after {
     content: "";
     position: absolute;
     display: block;
-    background: inherit;
+    background: #ffbc00;
     opacity: 0.9;
     top: 0;
     left: 0;
@@ -116,6 +116,7 @@ input[class^="btn-"]:hover {
   .item:hover .item-image {
     transform: scale(1.2); }
   .item:hover .item-text {
+    opacity: 1;
     transform: translateY(0); }
   .item-image {
     height: auto;
@@ -148,8 +149,8 @@ input[class^="btn-"]:hover {
     transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
     transition-delay: 300ms; }
   .item-text-wrap {
-    width: 100%;
     position: absolute;
+    width: 100%;
     top: 50%;
     transform: translateY(-50%); }
   .item-text-title {
