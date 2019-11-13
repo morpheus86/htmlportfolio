@@ -16,7 +16,6 @@
     <header id="header-inner">
       <div class="container">
         <nav id="main-nav">
-          <!-- <img src="img/logo.png" alt="portfolio" id="logo" /> -->
           <h1>H T D</h1>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -35,12 +34,13 @@
         <p class="lead">
           Here how you can reach me
         </p>
-        <form action="">
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
           <div class="text-fields">
             <input
               type="text"
               class="text-input name-input"
               placeholder="Name"
+              name="name"
             />
             <input
               type="text"
@@ -51,17 +51,22 @@
               type="email"
               class="text-input email-input"
               placeholder="Email"
+              name="email"
             />
             <input
               type="text"
               class="text-input phone-input"
               placeholder="Phone Number"
+              name="phone"
             />
             <textarea
-              type="text"
               class="text-input message-input"
               placeholder="Enter message"
+              name="message"
             ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
           </div>
           <button type="submit" class="btn-dark">Submit</button>
         </form>
