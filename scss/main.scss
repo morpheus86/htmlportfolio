@@ -94,6 +94,9 @@ img {
 #home {
   //section a
   &-a {
+    .section-title {
+      color: $dark-color;
+    }
     .specials {
       margin-top: 3rem;
       display: grid;
@@ -182,13 +185,22 @@ img {
     }
   }
 }
-
+// Work
+#work {
+  &-a {
+    .section-title {
+      color: $dark-color;
+    }
+  }
+}
 // Footer
 #main-footer {
   background: $dark-color;
   color: #fff;
   height: 5rem;
-
+  a {
+    color: white;
+  }
   .footer-content {
     display: flex;
     justify-content: space-between;
@@ -213,6 +225,10 @@ img {
 // about
 #about {
   &-a {
+    .section-title {
+      color: $dark-color;
+    }
+
     .about-info {
       display: grid;
       grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
@@ -261,6 +277,9 @@ img {
 }
 #contact {
   &-a {
+    .section-title {
+      color: $dark-color;
+    }
     .text-fields {
       display: grid;
       grid-template-areas: "name email" "subject phone" "message message";

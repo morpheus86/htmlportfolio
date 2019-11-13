@@ -230,6 +230,9 @@ img {
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
+#home-a .section-title {
+  color: #333; }
+
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
@@ -291,10 +294,15 @@ img {
         background: #333;
         color: #fff; }
 
+#work-a .section-title {
+  color: #333; }
+
 #main-footer {
   background: #333;
   color: #fff;
   height: 5rem; }
+  #main-footer a {
+    color: white; }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
@@ -311,6 +319,9 @@ img {
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
+
+#about-a .section-title {
+  color: #333; }
 
 #about-a .about-info {
   display: grid;
@@ -351,6 +362,9 @@ img {
     color: #fff;
     text-align: center;
     background-color: #ffbc00; }
+
+#contact-a .section-title {
+  color: #333; }
 
 #contact-a .text-fields {
   display: grid;
