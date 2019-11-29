@@ -113,7 +113,7 @@ img {
   &-b {
     .tech {
       display: grid;
-      grid-template-columns: repeat(7, 1fr);
+      grid-template-columns: repeat(5, 1fr);
 
       li {
         line-height: 2;
@@ -259,6 +259,9 @@ img {
     }
   }
   &-b {
+    h4 {
+      color: $light-color;
+    }
     .progress {
       overflow: hidden;
       height: 20px;

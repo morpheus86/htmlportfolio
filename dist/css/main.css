@@ -244,7 +244,7 @@ img {
 
 #home-b .tech {
   display: grid;
-  grid-template-columns: repeat(7, 1fr); }
+  grid-template-columns: repeat(5, 1fr); }
   #home-b .tech li {
     line-height: 2; }
     #home-b .tech li.tech-title {
@@ -350,6 +350,9 @@ img {
 #about-a .education-3 .fas {
   color: #ffbc00;
   margin: 1rem; }
+
+#about-b h4 {
+  color: #f4f4f4; }
 
 #about-b .progress {
   overflow: hidden;
